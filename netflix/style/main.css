@@ -10,11 +10,12 @@
     box-sizing: border-box;
 }
 
+/*Elementos bases*/
 
 body{
    background: var(--preta);
    font-family: 'Times New Roman', 'Times New Roman', Times, serif;
-
+    color:white;
 }
 
 header .container{
@@ -39,4 +40,25 @@ header nav a{
 
 header nav a:hover{
     color:#fff;
+}
+
+/*Itens relacionados ao filme*/
+
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/cover-toys.jpg');
+    height: 480px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-bottom: 90px;
+}
+
+.titulo{
+    font-size: 40px;
 }
